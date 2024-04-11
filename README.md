@@ -1,6 +1,8 @@
 # Sales-Dashboard
 
-# Dashboard Link : https://app.powerbi.com/links/e1plsW6XTr?ctid=9bb2360a-034c-4ecf-8228-aafe1a12b953&pbi_source=linkShare&bookmarkGuid=4faf1200-1fde-477e-b561-99254b9d694e
+# Dashboard Link : 
+
+https://app.powerbi.com/links/e1plsW6XTr?ctid=9bb2360a-034c-4ecf-8228-aafe1a12b953&pbi_source=linkShare&bookmarkGuid=4faf1200-1fde-477e-b561-99254b9d694e
 
 # Problem Statement
 
@@ -27,8 +29,8 @@ Step 7 : A New Calender table created using with reference to Order date. Along 
         Year = FORMAT('Calender Table'[Date],"YYYY")
         Month No = FORMAT('Calender Table'[Date],"MM")
 
-Step 8 : Another Table created with the name of All Measures where all the measures are created.
+Step 8 : In this step in Model view, Relationship has been establised between the tables using common columns and one to many cardinality.
 
-Step 9 : 
+Step 9 : Another Table created with the name of All Measures where all the measures are created.
 
 Step 10 : 
