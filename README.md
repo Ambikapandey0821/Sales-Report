@@ -87,7 +87,7 @@ Step 18 : A slicer Added so that Page can be filtered on the basis of years.
 
 Step 18 : Report Published in the Power BI Services.
 
-![image](https://github.com/Ambikapandey0821/Sales-Report/assets/162020155/2286baa9-1e14-4bad-ba0a-1895bcd0b542)
+![image](https://github.com/Ambikapandey0821/Sales-Report/assets/162020155/9272fd29-7f2d-437f-a207-040c8fe2308c)
 
 # Insights
 
