@@ -1,6 +1,6 @@
-# Sales-Report
+# Sales-Dashboard
 
-Dashboard Link : https://app.powerbi.com/links/e1plsW6XTr?ctid=9bb2360a-034c-4ecf-8228-aafe1a12b953&pbi_source=linkShare&bookmarkGuid=4faf1200-1fde-477e-b561-99254b9d694e
+# Dashboard Link : https://app.powerbi.com/links/e1plsW6XTr?ctid=9bb2360a-034c-4ecf-8228-aafe1a12b953&pbi_source=linkShare&bookmarkGuid=4faf1200-1fde-477e-b561-99254b9d694e
 
 # Problem Statement
 
