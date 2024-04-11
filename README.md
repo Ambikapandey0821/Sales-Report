@@ -33,4 +33,33 @@ Step 8 : In this step in Model view, Relationship has been establised between th
 
 Step 9 : Another Table created with the name of All Measures where all the measures are created.
 
-Step 10 : 
+        ![image](https://github.com/Ambikapandey0821/Sales-Report/assets/162020155/b29ac4ad-456a-44e6-8ccf-10073c66d0b5)
+
+
+Step 10 : A Measure Created to calculate the total Revenue.
+
+        Total Revenue = SUM(Orders[Sales])
+        
+![image](https://github.com/Ambikapandey0821/Sales-Report/assets/162020155/f5be54a6-ba42-4d96-ad30-0601078bda4c)
+
+Step 10 : A Measure Created to calculate the total Profit.
+
+        Total Profit = SUM(Orders[Profit])
+        
+![image](https://github.com/Ambikapandey0821/Sales-Report/assets/162020155/0e6cccac-ae19-4598-8eb9-7dcd5902aff7)
+
+Step 10 : A Measure Created to calculate the total Orders.
+
+        Total Orders = COUNT(Orders[Order ID])
+        
+![image](https://github.com/Ambikapandey0821/Sales-Report/assets/162020155/04e0deb5-ac6c-484c-b2a0-7380f7f90ef2)
+
+Step 10 : A Measure Created to calculate the rank of the states based on Revenue generation and then selected top 5 states.
+
+        States Ranking = RANKX(ALL(Orders[State]),CALCULATE(SUM(Orders[Sales])),,DESC,Dense)
+        Top 5 States = IF([States Ranking]<=5,SUM(Orders[Sales]),BLANK())
+        
+![image](https://github.com/Ambikapandey0821/Sales-Report/assets/162020155/dc637ac3-696c-47cb-bc5a-b5efb38c5d7a)
+
+
+        
